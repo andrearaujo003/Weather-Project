@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+
+
+
+}
+
+::placeholder {
+    color: white;
+}
+
+h1 {
+    color: #ffffff
+}
+
+h2 {
+    color: #ffffff
+}
+
+p {
+    color: #ffffff
+}
+
+h3 {
+    color: #ffffff;
+}
+
+
+h4 {
+    color: #ffffff;
+}
+
+body {
+
+    background-image: url('img/luca-micheli-ruWkmt3nU58-unsplash.jpg');
+    background-size: cover;
+
+.background{
+    background-size: cover;
+   
+}
+
+
+/*
+h1{
+
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    font-size: 20px;
+    
+  
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+    font-size: 58px;
+    margin-top: -55px;
+}
+
+h3{
+    display: flex;
+    margin-left: 75px;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+    
+    margin-top: 25px;
+    margin-bottom: auto;
+    font-size: 18px;
+
+}
+*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    color: rgba(255, 255, 255, 0.834);
+    font-size: 42px;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+.container {
+    position: relative;
+    margin-top: 200px; /* Ajuste conforme necessário */
+    text-align: center;
+}
+
+.b-box {
+    top: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+    border-radius: 25px;
+    padding: 10px;
+    height: 5vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    border: 0.2px solid rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+
+
+
+}
+
+/* valor base tamanho height: 280px width: 350px*/
+.a-box {
+    display: none;
+    top: 0;
+    position: relative;
+    display: none;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    font-size: small;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    margin: auto;
+    margin-top: 80px;
+    height: 360px;
+    width: 430px;
+    border-radius: 25px;
+    padding: 20px;
+    border: 0.1px solid rgba(255, 255, 255, 0.5);
+    
+    transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+}
+
+
+.input {
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    padding-left: 2%;
+
+}
+
+.button-search {
+    
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    margin-left: 150px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    cursor: pointer;
+
+
+}
+
+
+
+
+.button-search:hover {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+   
+    
+}
+
+
+
+
+
+.img-search {
+    height: 18px;
+    width: 18px;
+    padding: center;
+    
+
+}
+
+.button-landscape {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    color: rgba(255, 255, 255, 0.923);
+    opacity: 0.8;
+    border-radius: 25px;
+    font-size: medium;
+    height: 35px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 0.1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.button-landscape:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+
+
+.goBack{
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    opacity: 0.8;
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 26px;
+    
+}
+
+.goBack:hover {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+   
+    
+}
+
+
+.back-icon{
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    margin-top: 3px;
+    
+    height: 28px;
+    width: 28px;
+}
+   
+
+
+.city-name {
+
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    font-size: 150%;
+    margin-top: 12px;
+
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    font-size: 70px;
+    margin-top: 12px;
+
+
+}
+
+.textWheather {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-top: 12px;
+
+}
+
+
+.humidity {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+
+.img-weather {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 62px;
+    width: 62px;
+    
+
+
+}
+
+.b-box.visible {
+    display: flex; /* Alterado para flex */
+}
+
+.b-box.hidden {
+    display: none;
+}
+
+.a-box.visible {
+    display: block; /* Alterado para none */
+}
+
+.a-box.hidden {
+    display: block;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <script src="scripts.js"></script>
+    <title>Weather Project by André Araújo</title>
+</head>
+
+<body class="background" class="container">
+
+    <div>
+        <header class="header">Check The Weather <img class="background"
+                src="https://openweathermap.org/img/wn/04n.png" /> </header>
+    </div>
+
+
+    <div class="b-box">
+
+
+        <input class="input" placeholder="Type a city name to search..." onkeypress="handleKeyPress(event)">
+
+        <button class="button-search" onclick="searchActions() ">
+            
+            <img class="img-search" alt="botao-buscar" src="img/find_white.svg">
+
+        </button>
+
+
+
+    </div>
+
+    <div class="a-box">
+
+
+        <h1 class="city-name"> </h1>
+        <h2 class="temp"> <br /> </h2>
+
+
+        <h3 class="textWheather"> </h3>
+        </h3>
+
+        <h4 class="humidity"></h4>
+
+        <button class="goBack"> 
+            
+          <img class="back-icon" alt="botao-voltar"  src="img/back-white.svg" onclick="searchShow()">
+
+        </button>
+
+    </div>
+
+    <button class="button-landscape" onclick="landscapeClick()">Change&nbsp;the&nbsp;Landscape</button>
+
+    
+
+</body>
+
+</html>
